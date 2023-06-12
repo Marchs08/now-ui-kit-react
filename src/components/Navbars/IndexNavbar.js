@@ -58,10 +58,10 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Now UI Kit React
+              唯美Mod，不只是游戏，更是艺术
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
+              Designed by March08. Coded by March08
             </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"

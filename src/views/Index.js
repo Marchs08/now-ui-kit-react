@@ -24,6 +24,7 @@ import CompleteExamples from "./index-sections/CompleteExamples.js";
 import SignUp from "./index-sections/SignUp.js";
 import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
+import Project from "./index-sections/Product";
 
 function Index() {
   React.useEffect(() => {
@@ -43,7 +44,8 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          <Images />
+          <Project />
+          {/*<Images />
           <BasicElements />
           <Navbars />
           <Tabs />
@@ -56,7 +58,7 @@ function Index() {
           <CompleteExamples />
           <SignUp />
           <Examples />
-          <Download />
+          <Download />*/}
         </div>
         <DarkFooter />
       </div>
