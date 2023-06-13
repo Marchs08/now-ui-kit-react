@@ -5,7 +5,7 @@ import React from "react";
 import { Container } from "reactstrap";
 // core components
 
-function IndexHeader() {
+function MhrIndexHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -39,10 +39,10 @@ function IndexHeader() {
               className="n-logo"
               src={require("assets/img/now-logo.png")}
             ></img>
-            <h1 className="h1-seo">Now UI Kit.</h1>
-            <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+            <h1 className="h1-seo">怪物猎人 崛起</h1>
+            <h3>性感 时尚的衣服，给你带来不一样的狩猎过程</h3>
           </div>
-          <h6 className="category category-absolute">
+          {/*<h6 className="category category-absolute">
             Designed by{" "}
             <a href="http://invisionapp.com/?ref=creativetim" target="_blank">
               <img
@@ -63,11 +63,11 @@ function IndexHeader() {
               ></img>
             </a>
             .
-          </h6>
+          </h6>*/}
         </Container>
       </div>
     </>
   );
 }
 
-export default IndexHeader;
+export default MhrIndexHeader;

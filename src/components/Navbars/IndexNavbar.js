@@ -93,8 +93,8 @@ function IndexNavbar() {
                           .scrollIntoView();
                     }}
                 >
-                  <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                  <p>生化危机</p>
+                  <i className="now-ui-icons design_app mr-1"></i>
+                  <p>上古卷轴</p>
                 </NavLink>
               </NavItem>
 
@@ -108,11 +108,11 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                  <p>怪物猎人</p>
+                  <i className="now-ui-icons design_app mr-1"></i>
+                  <p>辐射</p>
                 </NavLink>
               </NavItem>
-              {/*<UncontrolledDropdown nav>
+              <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
                   color="default"
@@ -121,22 +121,47 @@ function IndexNavbar() {
                   onClick={(e) => e.preventDefault()}
                 >
                   <i className="now-ui-icons design_app mr-1"></i>
-                  <p>Components</p>
+                  <p>怪物猎人-世界</p>
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem to="/index" tag={Link}>
                     <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    All components
+                    蕾丝系列
                   </DropdownItem>
                   <DropdownItem
                     href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
                     target="_blank"
                   >
                     <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    Documentation
+                    BDSM系列
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>*/}
+              </UncontrolledDropdown>
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                    caret
+                    color="default"
+                    href="#pablo"
+                    nav
+                    onClick={(e) => e.preventDefault()}
+                >
+                  <i className="now-ui-icons design_app mr-1"></i>
+                  <p>怪物猎人-崛起</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem to="/mhr" tag={Link}>
+                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
+                    蕾丝系列
+                  </DropdownItem>
+                  <DropdownItem
+                      href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
+                      target="_blank"
+                  >
+                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
+                    BDSM系列
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
              {/* <NavItem>
                 <Button
                   className="nav-link btn-neutral"

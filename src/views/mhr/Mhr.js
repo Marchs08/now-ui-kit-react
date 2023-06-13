@@ -6,27 +6,28 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import IndexHeader from "components/Headers/IndexHeader.js";
+import MhrIndexHeader from "components/Headers/MhrIndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
-// sections for this page
-import Images from "./index-sections/Images.js";
-import BasicElements from "./index-sections/BasicElements.js";
-import Navbars from "./index-sections/Navbars.js";
-import Tabs from "./index-sections/Tabs.js";
-import Pagination from "./index-sections/Pagination.js";
-import Notifications from "./index-sections/Notifications.js";
-import Typography from "./index-sections/Typography.js";
-import Javascript from "./index-sections/Javascript.js";
-import Carousel from "./index-sections/Carousel.js";
-import NucleoIcons from "./index-sections/NucleoIcons.js";
-import CompleteExamples from "./index-sections/CompleteExamples.js";
-import SignUp from "./index-sections/SignUp.js";
-import Examples from "./index-sections/Examples.js";
-import Download from "./index-sections/Download.js";
-import MhrProduct from "./index-sections/MhrProduct";
 
-function Index() {
+// sections for this page
+import Images from "views/index-sections/Images.js";
+import BasicElements from "views/index-sections/BasicElements.js";
+import Navbars from "views/index-sections/Navbars.js";
+import Tabs from "views/index-sections/Tabs.js";
+import Pagination from "views/index-sections/Pagination.js";
+import Notifications from "views/index-sections/Notifications.js";
+import Typography from "views/index-sections/Typography.js";
+import Javascript from "views/index-sections/Javascript.js";
+import Carousel from "views/index-sections/Carousel.js";
+import NucleoIcons from "views/index-sections/NucleoIcons.js";
+import CompleteExamples from "views/index-sections/CompleteExamples.js";
+import SignUp from "views/index-sections/SignUp.js";
+import Examples from "views/index-sections/Examples.js";
+import Download from "views/index-sections/Download.js";
+import Project from "views/index-sections/MhrProduct";
+
+function Mhr() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
     document.body.classList.add("sidebar-collapse");
@@ -42,9 +43,9 @@ function Index() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <IndexHeader />
+        <MhrIndexHeader />
         <div className="main">
-          <MhrProduct />
+          <Project />
           {/*<Images />
           <BasicElements />
           <Navbars />
@@ -66,4 +67,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Mhr;

@@ -23,18 +23,18 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
+      <div className="page-header {/*page-header-small*/}">
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/mhr/xing0.png") + ")"
           }}
           ref={pageHeader}
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">This is our great company.</h1>
-            <div className="text-center">
+            <h1 className="title" >💗五 月 的 衣 柜💗</h1>
+            {/*<div className="text-center">
               <Button
                 className="btn-icon btn-round"
                 color="info"
@@ -59,7 +59,7 @@ function LandingPageHeader() {
               >
                 <i className="fab fa-google-plus"></i>
               </Button>
-            </div>
+            </div>*/}
           </Container>
         </div>
       </div>

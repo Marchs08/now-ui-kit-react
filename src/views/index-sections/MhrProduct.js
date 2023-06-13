@@ -17,12 +17,13 @@ import {
 
 // core components
 
-function Project() {
+function MhrProduct() {
   const [iconPills, setIconPills] = React.useState("1");
   const [pills, setPills] = React.useState("1");
   return (
     <>
-      <div className="section section-tabs">
+      <div className="section section-download"
+           data-background-color="black">
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
@@ -72,4 +73,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default MhrProduct;

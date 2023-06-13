@@ -36,7 +36,7 @@ function LandingPage() {
       <ExamplesNavbar />
       <div className="wrapper">
         <LandingPageHeader />
-        {/*<div className="section section-about-us">
+        <div className="section section-about-us">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
@@ -122,8 +122,8 @@ function LandingPage() {
               </Row>
             </div>
           </Container>
-        </div>*/}
-       {/* <div className="section section-team text-center">
+        </div>
+        <div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
             <div className="team">
@@ -320,8 +320,8 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
-        </div>*/}
-       {/* <DefaultFooter />*/}
+        </div>
+        <DefaultFooter />
       </div>
     </>
   );

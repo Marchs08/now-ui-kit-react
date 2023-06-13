@@ -65,39 +65,39 @@ function ExamplesNavbar() {
               <span className="button-bar"></span>
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
-              <DropdownItem header tag="a">
-                Dropdown header
+              <DropdownItem  tag="a">
+                上古卷轴5
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Action
+                辐射4
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Another action
+                怪物猎人世界
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Something else here
+              <DropdownItem to="/mhr" tag={Link}>
+                怪物猎人崛起
+              </DropdownItem>
+              <DropdownItem divider></DropdownItem>
+              <DropdownItem href="mhr" onClick={(e) => e.preventDefault()}>
+                未开启
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Separated link
-              </DropdownItem>
-              <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                One more separated link
+                未开启
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <div className="navbar-translate">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
-              target="_blank"
+             /* href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
+              target="_blank"*/
               id="navbar-brand"
             >
-              怪物modding
+              衣柜列表
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
+            {/*<UncontrolledTooltip target="#navbar-brand">
               Designed by March08. Coded by March08
-            </UncontrolledTooltip>
+            </UncontrolledTooltip>*/}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
