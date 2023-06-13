@@ -85,6 +85,21 @@ function IndexNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink
+                    href="#pablo"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                          .getElementById("download-section")
+                          .scrollIntoView();
+                    }}
+                >
+                  <i className="now-ui-icons arrows-1_cloud-download-93"></i>
+                  <p>生化危机</p>
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink
                   href="#pablo"
                   onClick={(e) => {
                     e.preventDefault();
@@ -94,10 +109,10 @@ function IndexNavbar() {
                   }}
                 >
                   <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                  <p>Download</p>
+                  <p>怪物猎人</p>
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav>
+              {/*<UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
                   color="default"
@@ -121,8 +136,8 @@ function IndexNavbar() {
                     Documentation
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
-              <NavItem>
+              </UncontrolledDropdown>*/}
+             {/* <NavItem>
                 <Button
                   className="nav-link btn-neutral"
                   color="info"
@@ -175,7 +190,7 @@ function IndexNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem>*/}
             </Nav>
           </Collapse>
         </Container>
