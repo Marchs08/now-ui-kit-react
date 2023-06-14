@@ -120,15 +120,15 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                  Back to Kit
+                  进入衣柜
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
+                  关于我
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
@@ -166,7 +166,7 @@ function ExamplesNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>
+              </NavItem>*/}
             </Nav>
           </Collapse>
         </Container>

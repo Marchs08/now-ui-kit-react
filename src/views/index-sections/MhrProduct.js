@@ -23,7 +23,7 @@ function MhrProduct() {
   return (
     <>
       <div className="section section-download"
-           data-background-color="black">
+           /*data-background-color="black"*/>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
@@ -59,11 +59,37 @@ function MhrProduct() {
               ></img></a>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyXing Game Preview</p>
-              <img
+              <p className="category">SexyXing Moudle</p>
+              <a href={"https://www.baidu.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/xing1.jpg")}
+
+              ></img></a>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+      <div className="section section-download"
+          /* data-background-color="black"*/>
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMay Moudle</p>
+              <a href={"https://www.baidu.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/may0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMay Game Preview</p>
+              <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/may1.jpg")}
               ></img>
             </Col>
           </Row>

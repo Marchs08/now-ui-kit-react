@@ -27,13 +27,13 @@ function LandingPageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/mhr/xing0.png") + ")"
+            backgroundImage: "url(" + require("assets/img/landing.png") + ")"
           }}
           ref={pageHeader}
         ></div>
-        <div className="content-center">
+        <div className="content">
           <Container>
-            <h1 className="title" >💗五 月 的 衣 柜💗</h1>
+          <h1 className="title" >💗五 月 的 蕾 丝 衣 柜💗</h1>
             {/*<div className="text-center">
               <Button
                 className="btn-icon btn-round"
