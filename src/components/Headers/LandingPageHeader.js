@@ -23,7 +23,7 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header {/*page-header-small*/}">
+      <div className="page-header {/*page-header-small*/}" >
         <div
           className="page-header-image"
           style={{
@@ -31,9 +31,10 @@ function LandingPageHeader() {
           }}
           ref={pageHeader}
         ></div>
-        <div className="content">
-          <Container>
-          <h1 className="title" >💗五 月 的 蕾 丝 衣 柜💗</h1>
+       <div className="content" >
+        <Container style={{right:'20%'}}>
+          <h1 className="title" >💗五 月 的 蕾 丝 店💗</h1>
+            <h3>Lace Mod Show</h3>
             {/*<div className="text-center">
               <Button
                 className="btn-icon btn-round"

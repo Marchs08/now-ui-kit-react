@@ -119,26 +119,26 @@ function ExamplesNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/index" tag={Link}>
-                  进入衣柜
+                <NavLink to="/main" tag={Link}>
+                  首页
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  关于我
+                <NavLink to="/profile-page" tag={Link}>
+                  关于
                 </NavLink>
               </NavItem>
-              {/*<NavItem>
+              <NavItem>
                 <NavLink
                   href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
                   id="twitter-tooltip"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-qq"></i>
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
+                  联系我
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
@@ -166,7 +166,7 @@ function ExamplesNavbar() {
                 <UncontrolledTooltip target="#instagram-tooltip">
                   Follow us on Instagram
                 </UncontrolledTooltip>
-              </NavItem>*/}
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
