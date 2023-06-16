@@ -36,8 +36,29 @@ function LandingPage() {
       <ExamplesNavbar />
       <div className="wrapper">
         <LandingPageHeader />
-        {/*<div className="section section-about-us">
-          <Container>
+
+
+        <div className="page-header {/*page-header-small*/}" >
+          <div
+              className="page-header-image"
+              style={{
+                backgroundImage: "url(" + require("assets/img/bg4.jpg") + ")"
+              }}
+
+          ></div>
+          <div className="content" >
+            <Container style={{left:'20%'}}>
+              <h1 className="title" >aaaaaaaaaa</h1>
+              <h3>bbbbbbb</h3>
+            </Container>
+          </div>
+        </div>
+
+
+
+
+         {/*<div className="section section-about-us" >
+        <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title">Who we are?</h2>
@@ -123,7 +144,9 @@ function LandingPage() {
             </div>
           </Container>
         </div>*/}
-       {/* <div className="section section-team text-center">
+
+
+        {/*<div className="section section-team text-center">
           <Container>
             <h2 className="title">Here is our team</h2>
             <div className="team">
@@ -255,8 +278,12 @@ function LandingPage() {
               </Row>
             </div>
           </Container>
-        </div>
-        <div className="section section-contact-us text-center">
+        </div>*/}
+
+
+
+
+        {/*<div className="section section-contact-us text-center">
           <Container>
             <h2 className="title">Want to work with us?</h2>
             <p className="description">Your project is very important to us.</p>
@@ -321,7 +348,11 @@ function LandingPage() {
             </Row>
           </Container>
         </div>*/}
-       {/* <DefaultFooter />*/}
+
+
+
+
+        <DefaultFooter />
       </div>
     </>
   );

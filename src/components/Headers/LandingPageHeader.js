@@ -33,7 +33,7 @@ function LandingPageHeader() {
         ></div>
        <div className="content" >
         <Container style={{right:'20%'}}>
-          <h1 className="title" >💗五 月 的 蕾 丝 店💗</h1>
+          <h2 className="title" >💗五 月 的 蕾 丝 店💗</h2>
             <h3>Lace Mod Show</h3>
             {/*<div className="text-center">
               <Button
@@ -63,6 +63,7 @@ function LandingPageHeader() {
             </div>*/}
           </Container>
         </div>
+
       </div>
     </>
   );

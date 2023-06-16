@@ -25,7 +25,7 @@ import CompleteExamples from "views/index-sections/CompleteExamples.js";
 import SignUp from "views/index-sections/SignUp.js";
 import Examples from "views/index-sections/Examples.js";
 import Download from "views/index-sections/Download.js";
-import Project from "views/index-sections/MhrProduct";
+import MhrProduct from "views/index-sections/MhrProduct";
 
 function Mhr() {
   React.useEffect(() => {
@@ -45,7 +45,7 @@ function Mhr() {
       <div className="wrapper">
         <MhrIndexHeader />
         <div className="main">
-          <Project />
+          <MhrProduct />
           {/*<Images />
           <BasicElements />
           <Navbars />

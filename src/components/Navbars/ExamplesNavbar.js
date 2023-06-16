@@ -49,7 +49,7 @@ function ExamplesNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"fixed-top " + navbarColor} color="neutral" expand="lg">
         <Container>
           <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
@@ -147,7 +147,7 @@ function ExamplesNavbar() {
                   target="_blank"
                   id="facebook-tooltip"
                 >
-                  <i className="fab fa-facebook-square"></i>
+                  <i className="fab fa-weixin"></i>
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
@@ -160,7 +160,7 @@ function ExamplesNavbar() {
                   target="_blank"
                   id="instagram-tooltip"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-twitter"></i>
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">

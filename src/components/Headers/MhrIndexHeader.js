@@ -5,6 +5,8 @@ import React from "react";
 import { Container } from "reactstrap";
 // core components
 
+import '../../assets/css/mhr.css'
+
 function MhrIndexHeader() {
   let pageHeader = React.createRef();
 
@@ -13,7 +15,7 @@ function MhrIndexHeader() {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
         pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
+            "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
@@ -23,26 +25,26 @@ function MhrIndexHeader() {
   });
 
   return (
-    <>
-      <div className="page-header clear-filter" filter-color="blue">
-        <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/mhr/bg.jpeg") + ")"
-          }}
-          ref={pageHeader}
-        ></div>
-        <Container>
-          <div className="content-center brand">
-            <img
-              alt="..."
-              className="n-logo"
-              src={require("assets/img/now-logo.png")}
-            ></img>
-            <h1 className="h1-seo">怪物猎人 崛起</h1>
-            <h3>性感 时尚的衣服，给你带来不一样的狩猎过程</h3>
-          </div>
-          {/*<h6 className="category category-absolute">
+      <>
+        <div className="page-header clear-filter" mhr="mhr">
+          <div
+              className="page-header-image"
+              style={{
+                backgroundImage: "url(" + require("assets/img/mhr/bg.jpeg") + ")"
+              }}
+              ref={pageHeader}
+          ></div>
+          <Container>
+            <div className="content-center brand">
+              <img
+                  alt="..."
+                  className="n-logo"
+                  src={require("assets/img/now-logo.png")}
+              ></img>
+              <h1 className="h1-seo">怪物猎人 崛起</h1>
+              <h3>性感 时尚的衣服，给你带来不一样的狩猎过程</h3>
+            </div>
+            {/*<h6 className="category category-absolute">
             Designed by{" "}
             <a href="http://invisionapp.com/?ref=creativetim" target="_blank">
               <img
@@ -64,9 +66,9 @@ function MhrIndexHeader() {
             </a>
             .
           </h6>*/}
-        </Container>
-      </div>
-    </>
+          </Container>
+        </div>
+      </>
   );
 }
 
