@@ -74,7 +74,7 @@ function ExamplesNavbar() {
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                 怪物猎人世界
               </DropdownItem>
-              <DropdownItem to="/mhr" tag={Link}>
+              <DropdownItem to="/mhrl" tag={Link}>
                 怪物猎人崛起
               </DropdownItem>
               <DropdownItem divider></DropdownItem>

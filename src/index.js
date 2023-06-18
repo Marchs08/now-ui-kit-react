@@ -31,7 +31,8 @@ import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 // add modding page
-import Mhr from "views/mhr/Mhr";
+import Mhrl from "./views/mhr/Mhrl";
+import Mhrb from "./views/mhr/Mhrb";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -43,7 +44,8 @@ root.render(
       <Route path="/main" element={<LandingPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/login-page" element={<LoginPage />} />
-      <Route path="/mhr" element={<Mhr />} />
+      <Route path="/mhrl" element={<Mhrl />} />
+      <Route path="/mhrb" element={<Mhrb />} />
 
       <Route path="*" element={<Navigate to="/main" replace />} />
     </Routes>

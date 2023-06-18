@@ -17,7 +17,7 @@ import {
 
 // core components
 
-function MhrProduct() {
+function MhrPrdLace() {
   const [iconPills, setIconPills] = React.useState("1");
   const [pills, setPills] = React.useState("1");
   return (
@@ -27,7 +27,7 @@ function MhrProduct() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyAmore Moudle</p>
+              <p className="category">SexyAmore Design</p>
               <a href={"https://www.baidu.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -36,7 +36,7 @@ function MhrProduct() {
               ></img></a>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyAmore Game Preview</p>
+              <p className="category">SexyAmore GamePreview</p>
               <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -50,7 +50,7 @@ function MhrProduct() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyXing Moudle</p>
+              <p className="category">SexyXin Design</p>
               <a href={"https://www.baidu.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -59,7 +59,7 @@ function MhrProduct() {
               ></img></a>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyXing Moudle</p>
+              <p className="category">SexyXin GamePreview</p>
               <a href={"https://www.baidu.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -76,7 +76,7 @@ function MhrProduct() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyMay Moudle</p>
+              <p className="category">SexyMay Design</p>
               <a href={"https://www.baidu.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -85,7 +85,7 @@ function MhrProduct() {
               ></img></a>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyMay Game Preview</p>
+              <p className="category">SexyMay GamePreview</p>
               <img
                   alt="..."
                   className="rounded-circle img-raised"
@@ -95,8 +95,35 @@ function MhrProduct() {
           </Row>
         </Container>
       </div>
+
+
+
+      <div className="section section-tabs">
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyDoll Design</p>
+              <a href={"https://www.baidu.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/doll0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyDoll GamePreview</p>
+              <a href={"https://www.baidu.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/doll1.jpg")}
+
+              ></img></a>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
 
-export default MhrProduct;
+export default MhrPrdLace;

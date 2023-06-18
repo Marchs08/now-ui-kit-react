@@ -25,9 +25,9 @@ import CompleteExamples from "views/index-sections/CompleteExamples.js";
 import SignUp from "views/index-sections/SignUp.js";
 import Examples from "views/index-sections/Examples.js";
 import Download from "views/index-sections/Download.js";
-import MhrProduct from "views/index-sections/MhrProduct";
+import MhrPrdBDSM from "../index-sections/MhrPrdBDSM";
 
-function Mhr() {
+function Mhrb() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
     document.body.classList.add("sidebar-collapse");
@@ -45,7 +45,7 @@ function Mhr() {
       <div className="wrapper">
         <MhrIndexHeader />
         <div className="main">
-          <MhrProduct />
+          <MhrPrdBDSM />
           {/*<Images />
           <BasicElements />
           <Navbars />
@@ -67,4 +67,4 @@ function Mhr() {
   );
 }
 
-export default Mhr;
+export default Mhrb;

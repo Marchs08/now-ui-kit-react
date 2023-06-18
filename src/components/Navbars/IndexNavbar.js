@@ -16,6 +16,8 @@ import {
   Container,
   UncontrolledTooltip,
 } from "reactstrap";
+import MhrPrdBDSM from "../../views/index-sections/MhrPrdBDSM";
+import Mhrb from "../../views/mhr/Mhrb";
 
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -149,14 +151,11 @@ function IndexNavbar() {
                   <p>怪物猎人-崛起</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/mhr" tag={Link}>
+                  <DropdownItem to="/mhrl" tag={Link}>
                     <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
                     蕾丝系列
                   </DropdownItem>
-                  <DropdownItem
-                      href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                      target="_blank"
-                  >
+                  <DropdownItem to="/mhrb" tag={Link}>
                     <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
                     BDSM系列
                   </DropdownItem>

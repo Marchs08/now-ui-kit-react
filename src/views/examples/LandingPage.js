@@ -38,17 +38,36 @@ function LandingPage() {
         <LandingPageHeader />
 
 
-        <div className="page-header {/*page-header-small*/}" >
+        {/*<div className="page-header page-header-small" >
           <div
               className="page-header-image"
               style={{
-                backgroundImage: "url(" + require("assets/img/bg4.jpg") + ")"
+                backgroundImage: "url(" + require("assets/img/landing2.png") + ")"
               }}
 
           ></div>
           <div className="content" >
             <Container style={{left:'20%'}}>
               <h1 className="title" >aaaaaaaaaa</h1>
+              <h3>bbbbbbb</h3>
+            </Container>
+          </div>
+        </div>*/}
+
+
+
+
+        <div className="page-header {/*page-header-small*/}" >
+          <div
+              className="page-header-image"
+              style={{
+                backgroundImage: "url(" + require("assets/img/landing3.png") + ")"
+              }}
+
+          ></div>
+          <div className="content" >
+            <Container style={{right:'20%'}}>
+              <h2 className="title" >开 启 美 好 旅 程</h2>
               <h3>bbbbbbb</h3>
             </Container>
           </div>
