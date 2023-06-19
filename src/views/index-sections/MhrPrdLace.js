@@ -122,6 +122,35 @@ function MhrPrdLace() {
           </Row>
         </Container>
       </div>
+
+
+
+      <div className="section section-download"
+          /* data-background-color="black"*/>
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMinn Design</p>
+              <a href={"https://www.baidu.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/minn0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMinn GamePreview</p>
+              <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/minn1.jpg")}
+              ></img>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+
     </>
   );
 }
