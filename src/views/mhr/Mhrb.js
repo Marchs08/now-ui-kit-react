@@ -6,7 +6,7 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import MhrIndexHeader from "components/Headers/MhrIndexHeader.js";
+import MhrbIndexHeader from "components/Headers/MhrbIndexHeader.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 
@@ -43,7 +43,7 @@ function Mhrb() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <MhrIndexHeader />
+        <MhrbIndexHeader />
         <div className="main">
           <MhrPrdBDSM />
           {/*<Images />
@@ -61,7 +61,7 @@ function Mhrb() {
           <Examples />
           <Download />*/}
         </div>
-        <DarkFooter />
+        {/*<DarkFooter />*/}
       </div>
     </>
   );

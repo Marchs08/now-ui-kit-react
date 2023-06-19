@@ -7,7 +7,7 @@ import { Container } from "reactstrap";
 
 import '../../assets/css/mhr.css'
 
-function MhrIndexHeader() {
+function MhrbIndexHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -30,19 +30,19 @@ function MhrIndexHeader() {
           <div
               className="page-header-image"
               style={{
-                backgroundImage: "url(" + require("assets/img/prdbg/mhrl.jpg") + ")"
+                backgroundImage: "url(" + require("assets/img/prdbg/mhrb.jpg") + ")"
               }}
               ref={pageHeader}
           ></div>
           <Container>
             <div className="content-center brand">
-             {/* <img
+              {/*<img
                   alt="..."
                   className="n-logo"
                   src={require("assets/img/now-logo.png")}
               ></img>*/}
-              <h1 className="h1-seo">怪物猎人崛起 蕾丝篇</h1>
-              <h3>主打性感时尚的蕾丝丝袜以及高跟 给你带来不一样的狩猎过程</h3>
+              <h1 className="h1-seo">怪物猎人崛起 BDSM篇</h1>
+              <h3>主打捆绑BDSM系列 给你带来不一样的狩猎过程</h3>
             </div>
             {/*<h6 className="category category-absolute">
             Designed by{" "}
@@ -72,4 +72,4 @@ function MhrIndexHeader() {
   );
 }
 
-export default MhrIndexHeader;
+export default MhrbIndexHeader;

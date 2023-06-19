@@ -16,6 +16,8 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DarkFooter from "../../components/Footers/DarkFooter";
+import TransparentFooter from "../../components/Footers/TransparentFooter";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -38,7 +40,7 @@ function LandingPage() {
         <LandingPageHeader />
 
 
-        {/*<div className="page-header page-header-small" >
+        <div className="page-header {/*page-header-small*/}" >
           <div
               className="page-header-image"
               style={{
@@ -48,11 +50,12 @@ function LandingPage() {
           ></div>
           <div className="content" >
             <Container style={{left:'20%'}}>
-              <h1 className="title" >aaaaaaaaaa</h1>
-              <h3>bbbbbbb</h3>
+              <h2>主要展示个人Mod作品</h2>
+              <h4>蕾丝 丝袜 高跟为主 当然也会设计其他系列</h4>
+              <h4>游戏上会包含一些主流游戏的Mod</h4>
             </Container>
           </div>
-        </div>*/}
+        </div>
 
 
 
@@ -67,10 +70,12 @@ function LandingPage() {
           ></div>
           <div className="content" >
             <Container style={{right:'20%'}}>
-              <h2 className="title" >开 启 美 好 旅 程</h2>
-              <h3>bbbbbbb</h3>
+              <h2 className="title" >开 启 美 好 游 戏</h2>
+              {/*<h3>欢迎大家品鉴 </h3>*/}
+              {/*<p>如果过程中遇到什么问题，也可以第一时间联系我</p>*/}
             </Container>
           </div>
+         {/* <TransparentFooter />*/}
         </div>
 
 
@@ -366,12 +371,13 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
+
         </div>*/}
 
 
 
 
-        <DefaultFooter />
+       {/* <TransparentFooter />*/}
       </div>
     </>
   );

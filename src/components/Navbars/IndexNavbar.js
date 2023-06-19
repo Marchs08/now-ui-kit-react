@@ -55,16 +55,13 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="dark" >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
-              target="_blank"
-              id="navbar-brand"
+            <NavbarBrand to="/main" tag={Link}  id="navbar-brand"
             >
-              唯美Mod，不只是游戏，更是艺术
+              五月蕾丝
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
+            {/*<UncontrolledTooltip target="#navbar-brand">
               Designed by March08. Coded by March08
-            </UncontrolledTooltip>
+            </UncontrolledTooltip>*/}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -87,13 +84,13 @@ function IndexNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink
-                    href="#pablo"
+                    /*href="#pablo"
                     onClick={(e) => {
                       e.preventDefault();
                       document
                           .getElementById("download-section")
                           .scrollIntoView();
-                    }}
+                    }}*/
                 >
                   <i className="now-ui-icons design_app mr-1"></i>
                   <p>上古卷轴</p>
@@ -102,13 +99,13 @@ function IndexNavbar() {
 
               <NavItem>
                 <NavLink
-                  href="#pablo"
+                  /*href="#pablo"
                   onClick={(e) => {
                     e.preventDefault();
                     document
                       .getElementById("download-section")
                       .scrollIntoView();
-                  }}
+                  }}*/
                 >
                   <i className="now-ui-icons design_app mr-1"></i>
                   <p>辐射</p>
@@ -126,15 +123,12 @@ function IndexNavbar() {
                   <p>怪物猎人-世界</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
+                  <DropdownItem >
+                    <i className="now-ui-icons clothes_tie-bow mr-1"></i>
                     蕾丝系列
                   </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
-                  >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
+                  <DropdownItem  >
+                    <i className="now-ui-icons design_vector mr-1"></i>
                     BDSM系列
                   </DropdownItem>
                 </DropdownMenu>
@@ -152,11 +146,11 @@ function IndexNavbar() {
                 </DropdownToggle>
                 <DropdownMenu>
                   <DropdownItem to="/mhrl" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
+                    <i className="now-ui-icons clothes_tie-bow mr-1"></i>
                     蕾丝系列
                   </DropdownItem>
                   <DropdownItem to="/mhrb" tag={Link}>
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
+                    <i className="now-ui-icons design_vector mr-1"></i>
                     BDSM系列
                   </DropdownItem>
                 </DropdownMenu>

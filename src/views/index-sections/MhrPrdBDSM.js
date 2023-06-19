@@ -22,7 +22,7 @@ function MhrPrdBDSM() {
   const [pills, setPills] = React.useState("1");
   return (
     <>
-      <div className="section section-download"
+      <div className="section {/*section-download*/}"
            /*data-background-color="black"*/>
         <Container>
           <Row>

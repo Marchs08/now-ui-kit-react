@@ -65,25 +65,24 @@ function ExamplesNavbar() {
               <span className="button-bar"></span>
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
-              <DropdownItem  tag="a">
-                上古卷轴5
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                辐射4
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                怪物猎人世界
-              </DropdownItem>
               <DropdownItem to="/mhrl" tag={Link}>
                 怪物猎人崛起
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
-              <DropdownItem href="mhr" onClick={(e) => e.preventDefault()}>
-                未开启
+              <DropdownItem  tag="a">
+                <font style={{color:'grey'}}>上古卷轴5</font>
               </DropdownItem>
-              <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                未开启
+              <DropdownItem  tag="a">
+                <font style={{color:'grey'}}>辐射4</font>
+              </DropdownItem>
+              <DropdownItem href="" onClick={(e) => e.preventDefault()}>
+                <font style={{color:'grey'}}>怪物猎人世界</font>
+              </DropdownItem>
+              <DropdownItem href="" onClick={(e) => e.preventDefault()}>
+                <font style={{color:'grey'}}>生化危机</font>
+              </DropdownItem>
+              <DropdownItem href="" onClick={(e) => e.preventDefault()}>
+                <font style={{color:'grey'}}>最终幻想</font>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
@@ -118,7 +117,7 @@ function ExamplesNavbar() {
             navbar
           >
             <Nav navbar>
-              <NavItem>
+              {/*<NavItem>
                 <NavLink to="/main" tag={Link}>
                   首页
                 </NavLink>
@@ -127,10 +126,10 @@ function ExamplesNavbar() {
                 <NavLink to="/profile-page" tag={Link}>
                   关于
                 </NavLink>
-              </NavItem>
+              </NavItem>*/}
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=FwzN_5PsbnDzFAfFLohStaKLjX4V75_O&authKey=Uf3LD%2B%2BwtkRY1uVzlL0dRWUhVetVFWFrC9RB9Nque2FrNU0jqHX0FPjoVzu9motK&noverify=0&group_code=670866356"
                   target="_blank"
                   id="twitter-tooltip"
                 >
@@ -138,12 +137,15 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  联系我
+                  问题与建议
                 </UncontrolledTooltip>
               </NavItem>
-              <NavItem>
+
+
+
+              <NavItem> {/*Font Awesome 4*/}
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href=""
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -151,22 +153,41 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                  Like us on Facebook
+                  R18专业定制
                 </UncontrolledTooltip>
               </NavItem>
+
+
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                  target="_blank"
-                  id="instagram-tooltip"
+                    href=""
+                    target="_blank"
+                    id="mail-tooltip"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa fa-envelope"></i>
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
+                <UncontrolledTooltip target="#mail-tooltip">
+                  联系我
                 </UncontrolledTooltip>
               </NavItem>
+
+
+              <NavItem>
+                <NavLink
+                  href=""
+                  target="_blank"
+                  id="credit-tooltip"
+                >
+                  <i className="fab fa fa-credit-card"></i>
+                  <p className="d-lg-none d-xl-none">Instagram</p>
+                </NavLink>
+                <UncontrolledTooltip target="#credit-tooltip">
+                  赞助
+                </UncontrolledTooltip>
+              </NavItem>
+
+
             </Nav>
           </Collapse>
         </Container>

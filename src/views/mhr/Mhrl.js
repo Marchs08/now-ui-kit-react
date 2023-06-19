@@ -61,7 +61,7 @@ function Mhrl() {
           <Examples />
           <Download />*/}
         </div>
-        <DarkFooter />
+       {/* <DarkFooter />*/}
       </div>
     </>
   );
