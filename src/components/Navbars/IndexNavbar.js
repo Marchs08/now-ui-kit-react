@@ -55,7 +55,7 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="dark" >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand to="/main" tag={Link}  id="navbar-brand"
+            <NavbarBrand to="/" tag={Link}  id="navbar-brand"
             >
               五月蕾丝
             </NavbarBrand>

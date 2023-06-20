@@ -41,7 +41,7 @@ root.render(
     <Routes>
       <Route path="/index" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
-      <Route path="/main" element={<LandingPage />} />
+      <Route path="/" element={<LandingPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/login-page" element={<LoginPage />} />
       <Route path="/mhrl" element={<Mhrl />} />
