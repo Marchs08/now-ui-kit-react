@@ -22,34 +22,8 @@ function MhrPrdLace() {
   const [pills, setPills] = React.useState("1");
   return (
     <>
-      <div className="section {/*section-download*/}"
-           /*data-background-color="black"*/>
-        <Container>
-          <Row>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyAmore Design</p>
-              <a href={"https://www.lacemod.com"}> <img
-                  alt="..."
-                  className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/amore0.png")}
 
-              ></img></a>
-            </Col>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyAmore GamePreview</p>
-              <img
-                  alt="..."
-                  className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/amore1.jpg")}
-              ></img>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-
-
-      <div className="section section-tabs" >
+      <div className="section" >
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
@@ -74,53 +48,27 @@ function MhrPrdLace() {
         </Container>
       </div>
 
-      <div className="section {/*section-download*/}"
-          /* data-background-color="black"*/>
+
+      <div className="section section-tabs"
+           /*data-background-color="black"*/>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyMay Design</p>
+              <p className="category">SexyAmore Design</p>
               <a href={"https://www.lacemod.com"}> <img
                   alt="..."
                   className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/may0.png")}
+                  src={require("assets/img/mhr/amore0.png")}
 
               ></img></a>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyMay GamePreview</p>
+              <p className="category">SexyAmore GamePreview</p>
               <img
                   alt="..."
                   className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/may1.jpg")}
+                  src={require("assets/img/mhr/amore1.jpg")}
               ></img>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-
-
-      <div className="section section-tabs">
-        <Container>
-          <Row>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyDoll Design</p>
-              <a href={"https://www.lacemod.com"}> <img
-                  alt="..."
-                  className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/doll0.png")}
-
-              ></img></a>
-            </Col>
-            <Col className="ml-auto mr-auto" md="10" xl="6">
-              <p className="category">SexyDoll GamePreview</p>
-              <a href={"https://www.lacemod.com"}> <img
-                  alt="..."
-                  className="rounded-circle img-raised"
-                  src={require("assets/img/mhr/doll1.jpg")}
-
-              ></img></a>
             </Col>
           </Row>
         </Container>
@@ -152,6 +100,92 @@ function MhrPrdLace() {
           </Row>
         </Container>
       </div>
+
+
+
+      <div className="section section-tabs"
+          /* data-background-color="black"*/>
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMay Design</p>
+              <a href={"https://www.lacemod.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/may0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyMay GamePreview</p>
+              <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/may1.jpg")}
+              ></img>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+
+
+      <div className="section {/*section-download*/}"
+          /* data-background-color="black"*/>
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyFishnet Design</p>
+              <a href={"https://www.lacemod.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/fishnet0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyFishnet GamePreview</p>
+              <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/fishnet1.jpg")}
+              ></img>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+
+
+
+      <div className="section section-tabs">
+        <Container>
+          <Row>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyDoll Design</p>
+              <a href={"https://www.lacemod.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/doll0.png")}
+
+              ></img></a>
+            </Col>
+            <Col className="ml-auto mr-auto" md="10" xl="6">
+              <p className="category">SexyDoll GamePreview</p>
+              <a href={"https://www.lacemod.com"}> <img
+                  alt="..."
+                  className="rounded-circle img-raised"
+                  src={require("assets/img/mhr/doll1.jpg")}
+
+              ></img></a>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+
+
+
 
 
     </>
