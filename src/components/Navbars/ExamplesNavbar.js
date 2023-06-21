@@ -68,18 +68,25 @@ function ExamplesNavbar() {
               <DropdownItem to="/mhrl" tag={Link}>
                 怪物猎人崛起
               </DropdownItem>
+              <DropdownItem to="/mhwl" tag={Link}>
+                怪物猎人世界
+              </DropdownItem>
+              <DropdownItem divider></DropdownItem>
+              <DropdownItem to="/bio2l" tag={Link}>
+                生化危机2
+              </DropdownItem>
+             {/* <DropdownItem to="/bio2l" tag={Link}>
+                生化危机3
+              </DropdownItem>
+              <DropdownItem to="/bio2l" tag={Link}>
+                生化危机4
+              </DropdownItem>*/}
               <DropdownItem divider></DropdownItem>
               <DropdownItem  tag="a">
                 <font style={{color:'grey'}}>上古卷轴5</font>
               </DropdownItem>
               <DropdownItem  tag="a">
                 <font style={{color:'grey'}}>辐射4</font>
-              </DropdownItem>
-              <DropdownItem href="" onClick={(e) => e.preventDefault()}>
-                <font style={{color:'grey'}}>怪物猎人世界</font>
-              </DropdownItem>
-              <DropdownItem href="" onClick={(e) => e.preventDefault()}>
-                <font style={{color:'grey'}}>生化危机</font>
               </DropdownItem>
               <DropdownItem href="" onClick={(e) => e.preventDefault()}>
                 <font style={{color:'grey'}}>最终幻想</font>

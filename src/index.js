@@ -33,6 +33,11 @@ import ProfilePage from "views/examples/ProfilePage.js";
 // add modding page
 import Mhrl from "./views/mhr/Mhrl";
 import Mhrb from "./views/mhr/Mhrb";
+import Mhwl from "./views/mhw/Mhwl";
+import Mhwb from "./views/mhw/Mhwb";
+import Bio2l from "./views/bio2/Bio2l";
+import Bio2b from "./views/bio2/Bio2b";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -46,6 +51,12 @@ root.render(
       <Route path="/login-page" element={<LoginPage />} />
       <Route path="/mhrl" element={<Mhrl />} />
       <Route path="/mhrb" element={<Mhrb />} />
+      <Route path="/mhwl" element={<Mhwl />} />
+      <Route path="/mhwb" element={<Mhwb />} />
+      <Route path="/bio2l" element={<Bio2l />} />
+      <Route path="/bio2b" element={<Bio2b />} />
+
+
 
       <Route path="*" element={<Navigate to="/main" replace />} />
     </Routes>

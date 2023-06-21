@@ -97,6 +97,8 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
 
+
+
               <NavItem>
                 <NavLink
                   /*href="#pablo"
@@ -111,6 +113,37 @@ function IndexNavbar() {
                   <p>辐射</p>
                 </NavLink>
               </NavItem>
+
+
+
+              <UncontrolledDropdown nav>
+                <DropdownToggle
+                    caret
+                    color="default"
+                    href="#pablo"
+                    nav
+                    onClick={(e) => e.preventDefault()}
+                >
+                  <i className="now-ui-icons design_app mr-1"></i>
+                  <p>生化危机2重制</p>
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem to="/Bio2l" tag={Link}>
+                    <i className="now-ui-icons clothes_tie-bow mr-1"></i>
+                    蕾丝系列
+                  </DropdownItem>
+                  <DropdownItem  to="/Bio2b" tag={Link}>
+                    <i className="now-ui-icons design_vector mr-1"></i>
+                    BDSM系列
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
+
+
+
+
+
               <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
@@ -123,11 +156,11 @@ function IndexNavbar() {
                   <p>怪物猎人-世界</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem >
+                  <DropdownItem to="/mhwl" tag={Link}>
                     <i className="now-ui-icons clothes_tie-bow mr-1"></i>
                     蕾丝系列
                   </DropdownItem>
-                  <DropdownItem  >
+                  <DropdownItem  to="/mhwb" tag={Link}>
                     <i className="now-ui-icons design_vector mr-1"></i>
                     BDSM系列
                   </DropdownItem>
