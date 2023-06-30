@@ -30,7 +30,7 @@ function MhrbIndexHeader() {
           <div
               className="page-header-image"
               style={{
-                backgroundImage: "url(" + require("assets/img/prdbg/mhrb.jpg") + ")"
+                backgroundImage: "url(" + require("assets/img/prdbg/mhrb.png") + ")"
               }}
               ref={pageHeader}
           ></div>

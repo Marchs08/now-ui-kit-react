@@ -30,11 +30,11 @@ function MhrIndexHeader() {
           <div
               className="page-header-image"
               style={{
-                backgroundImage: "url(" + require("assets/img/prdbg/mhrl.jpg") + ")"
+                backgroundImage: "url(" + require("assets/img/prdbg/mhrl.png") + ")"
               }}
               ref={pageHeader}
           ></div>
-          <Container>
+          <Container style={{top:'12%'}}>
             <div className="content-center brand">
              {/* <img
                   alt="..."

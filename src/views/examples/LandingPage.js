@@ -50,9 +50,9 @@ function LandingPage() {
           ></div>
           <div className="content" >
             <Container style={{left:'20%'}}>
-              <h2>主要展示个人Mod作品</h2>
-              <h4>蕾丝 丝袜 高跟为主 当然也会设计其他系列</h4>
-              <h4>游戏上会包含一些主流游戏的Mod</h4>
+              <h2>不一样的游戏体验</h2>
+              <h4>主打蕾丝 丝袜 高跟 也会有R18 其他游戏系列的款式</h4>
+              <h4>包含主流游戏 比如生化 老滚辐射 怪物猎人 最终幻想等</h4>
             </Container>
           </div>
         </div>
@@ -75,7 +75,7 @@ function LandingPage() {
               {/*<p>如果过程中遇到什么问题，也可以第一时间联系我</p>*/}
             </Container>
           </div>
-         {/* <TransparentFooter />*/}
+          <TransparentFooter />
         </div>
 
 
@@ -377,7 +377,7 @@ function LandingPage() {
 
 
 
-       {/* <TransparentFooter />*/}
+      {/*  <TransparentFooter />*/}
       </div>
     </>
   );

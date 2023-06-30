@@ -28,21 +28,21 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyXin Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/xing0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyXin GamePreview</p>
-              <a href={"https://www.lacemod.com"}> <img
+             <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/xing1.jpg")}
 
-              ></img></a>
+              ></img>
             </Col>
           </Row>
         </Container>
@@ -55,12 +55,12 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyAmore Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/amore0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyAmore GamePreview</p>
@@ -82,12 +82,12 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyMinn Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/minn0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyMinn GamePreview</p>
@@ -109,12 +109,12 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyMay Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/may0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyMay GamePreview</p>
@@ -136,12 +136,12 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyFishnet Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+             <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/fishnet0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyFishnet GamePreview</p>
@@ -163,21 +163,21 @@ function MhrPrdLace() {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyDoll Design</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/doll0.png")}
 
-              ></img></a>
+              ></img>
             </Col>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <p className="category">SexyDoll GamePreview</p>
-              <a href={"https://www.lacemod.com"}> <img
+              <img
                   alt="..."
                   className="rounded-circle img-raised"
                   src={require("assets/img/mhr/doll1.jpg")}
 
-              ></img></a>
+              ></img>
             </Col>
           </Row>
         </Container>

@@ -42,7 +42,7 @@ function MhwbIndexHeader() {
                   src={require("assets/img/now-logo.png")}
               ></img>*/}
               <h1 className="h1-seo">怪物猎人世界 BDSM篇</h1>
-              <h3>主打捆绑BDSM系列 给你带来不一样的狩猎过程</h3>
+              <h3>敬请期待</h3>
             </div>
             {/*<h6 className="category category-absolute">
             Designed by{" "}

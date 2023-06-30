@@ -42,7 +42,7 @@ function MhwIndexHeader() {
                   src={require("assets/img/now-logo.png")}
               ></img>*/}
               <h1 className="h1-seo">怪物猎人世界 蕾丝篇</h1>
-              <h3>主打性感时尚的蕾丝丝袜以及高跟 给你带来不一样的狩猎过程</h3>
+              <h3>敬请期待</h3>
             </div>
             {/*<h6 className="category category-absolute">
             Designed by{" "}
